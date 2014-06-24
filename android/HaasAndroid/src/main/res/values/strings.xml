@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Haas</string>
+    <string name="menu_settings">Settings</string>
+	<string name="bid_spinner_prompt">Select Bid</string>
+	<string name="bid_label_text">Select Bid</string>
+	<string name="bid_button_text">Enter</string>
+	<string name="welcome_label_text">PlaceHolder</string>
+	<string name="welcome_button_text">OK</string>
+</resources>

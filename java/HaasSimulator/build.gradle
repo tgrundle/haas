@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+dependencies {
+    implementation project(':java:HaasCore')
+}
+
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(11))
+}

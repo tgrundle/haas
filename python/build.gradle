@@ -1,0 +1,9 @@
+apply plugin: "java-library" // for source roots
+apply plugin: "idea"
+
+idea {
+    module {
+        sourceDirs += file('src')
+        testSourceDirs += file('test')
+    }
+}

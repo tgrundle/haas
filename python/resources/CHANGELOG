@@ -1,0 +1,37 @@
+20120501
+ MODIFICATIONS
+ - Changed Name partner card interface
+20120430
+ MODIFICATIONS
+  - Increase card play speed
+  - Added basic multiplayer support
+  - Fixed issue with AIPlayer playing trump when weakest card was wanted
+  - Added ability to launch additional game
+  - Added graceful shutdown logic on error
+  
+ KNOWN ISSUES
+  - Server version only support 1 game
+  
+20120420
+ MODIFICATIONS
+  - Refresh players cards after discard/play is made to move cards together
+  - Remove display message when Interactive player needs to discard/play
+  - Handle error when Interactive player clicks card then moves mouse
+  - Fixed AI logic when determining if bidder/partner is winning the current trick
+  - Fixed AI logic when bidder/partner goes to trump to use weakest trump if last player in trick
+  - Fixed AI logic for non-bidder/partner that must overstick trump to use weakest trump if winner is behind him
+  - Fixed AI logic where bidder plays mid range trump back into partner
+  - Add logging of all players options and plays, no just UI
+
+ KNOWN ISSUES
+ 
+20120412
+ MODIFICATIONS
+  - Change name partner card screen to display test box around card
+  - Delayed rendering of AI Players move to make more human like
+  - Change trump images from little images at top to large image in middle of table
+  - Added animation and end of trick to collapse card to trick winner
+
+ KNOWN ISSUES
+  - Game crashes when card clicked and then mouse moved
+ 
