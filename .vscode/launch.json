@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch HaasConsole",
+            "request": "launch",
+            "mainClass": "com.rundle.haas.console.HaasConsole",
+            "projectName": "HaasConsole"
+        },
+        {
             "name": "Haas - Python",
             "type": "python",
             "request": "launch",
