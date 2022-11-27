@@ -1,4 +1,12 @@
-apply plugin: 'java'
+plugins {
+    id 'application'
+    id 'java'
+}
+
+
+application {
+    mainClassName = "com.rundle.haas.console.HaasConsole"
+}
 
 dependencies {
     implementation project(':java:HaasCore')

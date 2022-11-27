@@ -1,6 +1,7 @@
-include ':java:HaasCore', 'android:HaasAndroid'
+include ':java:HaasCore'
 include ':java:HaasConsole'
 include ':java:HaasSwing'
 include ':java:HaasSimulator'
+include 'android:HaasAndroid'
 include ':python'
 
